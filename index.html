@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+  <title>SGAR 2026 — Now Showing</title>
+  <meta
+    name="description"
+    content="SGAR 2026 — Student Government Annual Recruitment"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    (function () {
+      try {
+        if (sessionStorage.getItem("sgarRestoreFromUnit") === "1") {
+          document.documentElement.classList.add("sgar-restoring-index");
+        }
+      } catch (error) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+  <main>
+
+    <section class="cinema-scroll" id="cinemaExperience" aria-label="SGAR 2026 cinema intro">
+      <div class="cinema-stage" id="cinemaStage">
+        <div class="film-overlay" aria-hidden="true"></div>
+        <div class="projector-beam" aria-hidden="true"></div>
+
+        <header class="site-header" id="siteHeader">
+          <a class="brand brand-logo-link" href="#cinemaExperience" aria-label="SGAR logo placeholder">
+            <img src="assets/sgar-white-logo.png" alt="SGAR logo" class="brand-logo-placeholder">
+          </a>
+
+          <a class="brand brand-logo-link" href="#cinemaExperience" aria-label="Second organization">
+            <img
+              src="assets/[USG] WHITE LOGO.png"
+              alt="Second organization logo"
+              class="brand-logo-placeholder second-logo"
+            >
+          </a>
+        </header>
+
+        <div class="cinema-room" id="cinemaRoom">
+          <div class="wall wall-left" aria-hidden="true"></div>
+          <div class="wall wall-right" aria-hidden="true"></div>
+
+          <div class="curtain curtain-left" id="curtainLeft" aria-hidden="true"></div>
+          <div class="curtain curtain-right" id="curtainRight" aria-hidden="true"></div>
+
+          <div class="screen-wrap" id="screenWrap">
+            <p class="screen-presenter-overline">DLSU USG-OSEC PRESENTS</p>
+            <div class="screen-frame">
+              <div class="screen">
+                <div class="screen-accent accent-left" aria-hidden="true"></div>
+                <div class="screen-accent accent-right" aria-hidden="true"></div>
+
+                <div class="screen-copy" id="screenCopy">
+
+                  <p class="now-showing">NOW SHOWING:</p>
+                  <h1>SGAR 2026</h1>
+                  <p class="screen-subtitle">
+                    STUDENT GOVERNMENT ANNUAL RECRUITMENT
+                  </p>
+                </div>
+
+                <div class="screen-footer">
+                  <span>AY 2026–2027</span>
+                  <span>★ CINEMA ★</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="floor" aria-hidden="true"></div>
+
+          <div class="seat-row back-row" id="backRow" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+
+          <div class="seat-row middle-row" id="middleRow" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+
+          <div class="seat-row front-row" id="frontRow" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i>
+          </div>
+        </div>
+
+        <div class="intro-copy" id="introCopy">
+
+          <span class="scroll-prompt">SCROLL TO ENTER</span>
+          <div class="scroll-track" aria-hidden="true">
+            <div class="scroll-fill" id="scrollFill"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="ticket-scene">
+        <div class="sgar-ticket" id="sgarTicket">
+          <div class="ticket-main">
+            <div class="ticket-topline">
+              <span>DLSU USG</span>
+              <span>AY 2026–2027</span>
+            </div>
+
+            <div class="ticket-title-wrap">
+              <p>STUDENT GOVERNMENT ANNUAL RECRUITMENT</p>
+              <h3>WHAT IS<br />SGAR?</h3>
+            </div>
+
+            <p class="ticket-description">
+              SGAR is the University Student Government’s recruitment initiative
+              for students interested in becoming part of the USG and contributing
+              to the DLSU student community.
+            </p>
+
+            <div class="ticket-bottomline">
+              <span>NOW RECRUITING</span>
+              <span>ADMIT ONE</span>
+            </div>
+          </div>
+
+          <div class="ticket-perforation" aria-hidden="true"></div>
+
+          <div class="ticket-stub" id="ticketStub">
+            <span class="stub-small">SGAR 2026</span>
+            <span class="stub-vertical">RECRUITMENT</span>
+            <span class="stub-small">DLSU<br />USG</span>
+            <span class="stub-barcode" aria-hidden="true"></span>
+            <span class="torn-fibers" aria-hidden="true"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section class="snap-section organizations-section" id="organizations">
+      <div class="organizations-shell">
+        <div class="transition-strip transition-strip-top strip-recruitment" aria-hidden="true">
+          <div class="transition-strip-track seamless-marquee">
+            <div class="marquee-group">
+              <span>EXECUTIVE BOARD</span><i></i>
+              <span>CABINETS</span><i></i>
+              <span>INDEPENDENT BODIES</span><i></i>
+              <span>COLLEGE UNITS</span><i></i>
+              <span>BATCH UNITS</span><i></i>
+              <span>OPEN ROLES</span><i></i>
+              <span>JOIN USG</span><i></i>
+              <span>STUDENT LEADERSHIP</span><i></i>
+              <span>FEATURED ROLES</span><i></i>
+              <span>RECRUITMENT</span><i></i>
+            </div>
+
+            <div class="marquee-group" aria-hidden="true">
+              <span>EXECUTIVE BOARD</span><i></i>
+              <span>CABINETS</span><i></i>
+              <span>INDEPENDENT BODIES</span><i></i>
+              <span>COLLEGE UNITS</span><i></i>
+              <span>BATCH UNITS</span><i></i>
+              <span>OPEN ROLES</span><i></i>
+              <span>JOIN USG</span><i></i>
+              <span>STUDENT LEADERSHIP</span><i></i>
+              <span>FEATURED ROLES</span><i></i>
+              <span>RECRUITMENT</span><i></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="organizations-heading organizations-heading-centered">
+          <h2>AVAILABLE FOR SHOWING</h2>
+        </div>
+
+        <div class="category-panel category-panel-from-old">
+          <div class="category-panel-no">01</div>
+          <div class="category-panel-copy">
+            <h3>Executive Board<br />and Cabinets</h3>
+          </div>
+          <div class="category-projector" aria-hidden="true">
+            <span class="projector-reel-icon reel-icon-one"></span>
+            <span class="projector-reel-icon reel-icon-two"></span>
+            <span class="projector-body-icon"></span>
+            <span class="projector-lens-icon"></span>
+          </div>
+        </div>
+
+        <div class="poster-showcase-light" aria-hidden="true">
+          <span class="showcase-light-fixture"></span>
+        </div>
+
+        <div class="featured-carousel-shell featured-carousel-shell-portrait">
+          <div
+            class="featured-carousel"
+            id="execCarousel"
+            role="region"
+            aria-roledescription="carousel"
+            aria-label="Executive Board and Cabinets recruiting organizations"
+          >
+            <div class="featured-track" id="execTrack">
+              <article class="featured-card theme-blue" data-slide="0" data-unit-key="OSEC" role="link" tabindex="0" aria-label="Open unit page for Exec 1">
+                <div class="featured-art has-poster">
+                  <img src="assets/OSEC_MainPub.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+
+              <article class="featured-card theme-pink" data-slide="1" data-unit-key="DSW" role="link" tabindex="0" aria-label="Open unit page for Exec 2">
+                <div class="featured-art has-poster">
+                  <img src="assets/CABINET - DSW.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+
+              <article class="featured-card theme-yellow" data-slide="2" data-unit-key="DLA" role="link" tabindex="0" aria-label="Open unit page for Exec 3">
+                <div class="featured-art has-poster">
+                  <img src="assets/CABINET - DLA.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+
+              <article class="featured-card theme-green" data-slide="3" data-unit-key="DOP" role="link" tabindex="0" aria-label="Open unit page for Exec 4">
+                <div class="featured-art has-poster">
+                  <img src="assets/CABINET - DOP.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+
+              <article class="featured-card theme-cream" data-slide="4" data-unit-key="DFO" role="link" tabindex="0" aria-label="Open unit page for Exec 5">
+                <div class="featured-art has-poster">
+                  <img src="assets/CABINET - DFO.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+              <article class="featured-card theme-cream" data-slide="4" data-unit-key="DFA" role="link" tabindex="0" aria-label="Open unit page for Exec 6">
+                  <div class="featured-art has-poster">
+                  <img src="assets/CABINET - DFA.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+              <article class="featured-card theme-cream" data-slide="4" data-unit-key="DSC" role="link" tabindex="0" aria-label="Open unit page for Exec 6">
+                  <div class="featured-art has-poster">
+                  <img src="assets/CABINET - DSC.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+              <article class="featured-card theme-cream" data-slide="4" data-unit-key="DUE" role="link" tabindex="0" aria-label="Open unit page for Exec 6">
+                  <div class="featured-art has-poster">
+                  <img src="assets/CABINET - DUE.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+              <article class="featured-card theme-cream" data-slide="4" data-unit-key="DEE" role="link" tabindex="0" aria-label="Open unit page for Exec 6">
+                  <div class="featured-art has-poster">
+                  <img src="assets/CABINET - DEE.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+              <article class="featured-card theme-cream" data-slide="4" data-unit-key="LCSG" role="link" tabindex="0" aria-label="Open unit page for Exec 6">
+                  <div class="featured-art has-poster">
+                  <img src="assets/LCSG_MainPub.jpg" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="featured-carousel-footer featured-carousel-footer-bottom">
+            <button class="carousel-arrow carousel-arrow-prev" id="execPrev" type="button" aria-label="Previous organization"><span class="chevron-icon">&gt;</span></button>
+
+            <div class="carousel-dots" id="execDots" aria-label="Choose an organization">
+              <button class="carousel-dot is-active" type="button" data-index="0" aria-label="Show organization 1"></button>
+              <button class="carousel-dot" type="button" data-index="1" aria-label="Show organization 2"></button>
+              <button class="carousel-dot" type="button" data-index="2" aria-label="Show organization 3"></button>
+              <button class="carousel-dot" type="button" data-index="3" aria-label="Show organization 4"></button>
+              <button class="carousel-dot" type="button" data-index="4" aria-label="Show organization 5"></button>
+            </div>
+
+            <button class="carousel-arrow carousel-arrow-next" id="execNext" type="button" aria-label="Next organization"><span class="chevron-icon">&gt;</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="snap-section independent-section independent-bodies-section" id="independentBodies">
+      <div class="organizations-shell">
+        <div class="category-panel category-panel-from-old category-panel-independent">
+          <div class="category-panel-no">02</div>
+          <div class="category-panel-copy">
+            <h3>Independent<br />Bodies</h3>
+          </div>
+          <div class="category-projector" aria-hidden="true">
+            <span class="projector-reel-icon reel-icon-one"></span>
+            <span class="projector-reel-icon reel-icon-two"></span>
+            <span class="projector-body-icon"></span>
+            <span class="projector-lens-icon"></span>
+          </div>
+        </div>
+
+        <div class="poster-showcase-light poster-showcase-light-independent" aria-hidden="true">
+          <span class="showcase-light-fixture"></span>
+        </div>
+
+        <div class="featured-carousel-shell featured-carousel-shell-portrait">
+          <div
+            class="featured-carousel"
+            id="indCarousel"
+            role="region"
+            aria-roledescription="carousel"
+            aria-label="Independent Bodies recruiting organizations"
+          >
+            <div class="featured-track" id="indTrack">
+              <article class="featured-card ind-theme-one" data-slide="0" data-unit-key="OMB" role="link" tabindex="0" aria-label="Open unit page for Independent Body 01">
+                <div class="featured-art has-poster">
+                  <img src="assets/OMB_MainPub.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+              <article class="featured-card ind-theme-two" data-slide="1" data-unit-key="COA" role="link" tabindex="0" aria-label="Open unit page for Independent Body 02">
+                <div class="featured-art has-poster">
+                  <img src="assets/COA_MainPub.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+              <article class="featured-card ind-theme-three" data-slide="2" data-unit-key="COMELEC" role="link" tabindex="0" aria-label="Open unit page for Independent Body 03">
+                <div class="featured-art has-poster">
+                  <img src="assets/COMELEC_MainPub.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="featured-carousel-footer featured-carousel-footer-bottom">
+            <button class="carousel-arrow carousel-arrow-prev" id="indPrev" type="button" aria-label="Previous independent bodies recruiting organizations"><span class="chevron-icon">&gt;</span></button>
+
+            <div class="carousel-dots" id="indDots" aria-label="Choose independent bodies recruiting organizations">
+              <button class="carousel-dot is-active" type="button" data-index="0" aria-label="Show Independent Bodies recruiting organizations 1"></button>
+              <button class="carousel-dot" type="button" data-index="1" aria-label="Show Independent Bodies recruiting organizations 2"></button>
+              <button class="carousel-dot" type="button" data-index="2" aria-label="Show Independent Bodies recruiting organizations 3"></button>
+              <button class="carousel-dot" type="button" data-index="3" aria-label="Show Independent Bodies recruiting organizations 4"></button>
+            </div>
+
+            <button class="carousel-arrow carousel-arrow-next" id="indNext" type="button" aria-label="Next independent bodies recruiting organizations"><span class="chevron-icon">&gt;</span></button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="snap-section independent-section college-units-section" id="collegeUnits">
+      <div class="organizations-shell">
+        <div class="category-panel category-panel-from-old category-panel-college">
+          <div class="category-panel-no">03</div>
+          <div class="category-panel-copy">
+            <h3>College<br />Units</h3>
+          </div>
+          <div class="category-projector" aria-hidden="true">
+            <span class="projector-reel-icon reel-icon-one"></span>
+            <span class="projector-reel-icon reel-icon-two"></span>
+            <span class="projector-body-icon"></span>
+            <span class="projector-lens-icon"></span>
+          </div>
+        </div>
+
+        <div class="poster-showcase-light poster-showcase-light-independent" aria-hidden="true">
+          <span class="showcase-light-fixture"></span>
+        </div>
+
+        <div class="featured-carousel-shell featured-carousel-shell-portrait">
+          <div
+            class="featured-carousel"
+            id="collegeCarousel"
+            role="region"
+            aria-roledescription="carousel"
+            aria-label="College Units recruiting organizations"
+          >
+            <div class="featured-track" id="collegeTrack">
+              <article class="featured-card ind-theme-one" data-slide="0" data-unit-key="CSG" role="link" tabindex="0" aria-label="Open unit page for Engineering College Government">
+                <div class="featured-art has-poster">
+                  <img src="assets/[CSG] SGAR Main Pub.png" alt="Engineering College Government poster" class="featured-poster-img ecg-mainpub-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+              <article class="featured-card ind-theme-two" data-slide="1" data-unit-key="BCG" role="link" tabindex="0" aria-label="Open unit page for College Unit 02">
+                <div class="featured-art has-poster">
+                  <img src="assets/BCG_MainPub.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+              <article class="featured-card ind-theme-three" data-slide="2" data-unit-key="ECG" role="link" tabindex="0" aria-label="Open unit page for College Unit 03">
+                <div class="featured-art has-poster">
+                  <img src="assets/ecg-mainpub.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+              <article class="featured-card ind-theme-four" data-slide="3" data-unit-key="SCG" role="link" tabindex="0" aria-label="Open unit page for College Unit 04">
+                <div class="featured-art has-poster">
+                  <img src="assets/SCG_MainPub.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+              <article class="featured-card ind-theme-four" data-slide="4" data-unit-key="ACG" role="link" tabindex="0" aria-label="Open unit page for College Unit 04">
+                <div class="featured-art has-poster">
+                  <img src="assets/SGAR MAIN PUB ACG.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+              <article class="featured-card ind-theme-four" data-slide="5" data-unit-key="SEG" role="link" tabindex="0" aria-label="Open unit page for College Unit 04">
+                <div class="featured-art has-poster">
+                  <img src="assets/SEG_MainPub.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="featured-carousel-footer featured-carousel-footer-bottom">
+            <button class="carousel-arrow carousel-arrow-prev" id="collegePrev" type="button" aria-label="Previous college units recruiting organizations"><span class="chevron-icon">&gt;</span></button>
+
+            <div class="carousel-dots" id="collegeDots" aria-label="Choose college units recruiting organizations">
+              <button class="carousel-dot is-active" type="button" data-index="0" aria-label="Show College Units recruiting organizations 1"></button>
+              <button class="carousel-dot" type="button" data-index="1" aria-label="Show College Units recruiting organizations 2"></button>
+              <button class="carousel-dot" type="button" data-index="2" aria-label="Show College Units recruiting organizations 3"></button>
+              <button class="carousel-dot" type="button" data-index="3" aria-label="Show College Units recruiting organizations 4"></button>
+              <button class="carousel-dot" type="button" data-index="4" aria-label="Show College Units recruiting organizations 4"></button>
+              <button class="carousel-dot" type="button" data-index="5" aria-label="Show College Units recruiting organizations 4"></button>
+              <button class="carousel-dot" type="button" data-index="6" aria-label="Show College Units recruiting organizations 4"></button>
+            </div>
+
+            <button class="carousel-arrow carousel-arrow-next" id="collegeNext" type="button" aria-label="Next college units recruiting organizations"><span class="chevron-icon">&gt;</span></button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="snap-section independent-section batch-units-section" id="batchUnits">
+      <div class="organizations-shell">
+        <div class="category-panel category-panel-from-old category-panel-batch">
+          <div class="category-panel-no">04</div>
+          <div class="category-panel-copy">
+            <h3>Batch<br />Units</h3>
+          </div>
+          <div class="category-projector" aria-hidden="true">
+            <span class="projector-reel-icon reel-icon-one"></span>
+            <span class="projector-reel-icon reel-icon-two"></span>
+            <span class="projector-body-icon"></span>
+            <span class="projector-lens-icon"></span>
+          </div>
+        </div>
+
+        <div class="poster-showcase-light poster-showcase-light-independent" aria-hidden="true">
+          <span class="showcase-light-fixture"></span>
+        </div>
+
+        <div class="featured-carousel-shell featured-carousel-shell-portrait">
+          <div
+            class="featured-carousel"
+            id="batchCarousel"
+            role="region"
+            aria-roledescription="carousel"
+            aria-label="Batch Units recruiting organizations"
+          >
+            <div class="featured-track" id="batchTrack">
+              <article class="featured-card ind-theme-one" data-slide="0" data-unit-key="FOCUS2024" role="link" tabindex="0" aria-label="Open unit page for Batch Unit 01">
+                <div class="featured-art has-poster">
+                  <img src="assets/FOCUS2024_MainPub.png" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+              <article class="featured-card ind-theme-two" data-slide="1" data-unit-key="FOCUS2025" role="link" tabindex="0" aria-label="Open unit page for Batch Unit 02">
+                <div class="featured-art has-poster">
+                  <img src="assets/FOCUS2025 MainPub.jpg" alt="Poster placeholder" class="featured-poster-img" loading="eager" decoding="async" />
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="featured-carousel-footer featured-carousel-footer-bottom">
+            <button class="carousel-arrow carousel-arrow-prev" id="batchPrev" type="button" aria-label="Previous batch units recruiting organizations"><span class="chevron-icon">&gt;</span></button>
+
+            <div class="carousel-dots" id="batchDots" aria-label="Choose batch units recruiting organizations">
+              <button class="carousel-dot is-active" type="button" data-index="0" aria-label="Show Batch Units recruiting organizations 1"></button>
+              <button class="carousel-dot" type="button" data-index="1" aria-label="Show Batch Units recruiting organizations 2"></button>
+              <button class="carousel-dot" type="button" data-index="2" aria-label="Show Batch Units recruiting organizations 3"></button>
+              <button class="carousel-dot" type="button" data-index="3" aria-label="Show Batch Units recruiting organizations 4"></button>
+            </div>
+
+            <button class="carousel-arrow carousel-arrow-next" id="batchNext" type="button" aria-label="Next batch units recruiting organizations"><span class="chevron-icon">&gt;</span></button>
+          </div>
+        </div>
+      </div>
+
+        <div class="transition-strip transition-strip-bottom strip-recruitment" aria-hidden="true">
+          <div class="transition-strip-track seamless-marquee seamless-marquee-bottom">
+            <div class="marquee-group">
+              <span>EXECUTIVE BOARD</span><i></i>
+              <span>CABINETS</span><i></i>
+              <span>INDEPENDENT BODIES</span><i></i>
+              <span>COLLEGE UNITS</span><i></i>
+              <span>BATCH UNITS</span><i></i>
+              <span>OPEN ROLES</span><i></i>
+              <span>JOIN USG</span><i></i>
+              <span>RECRUITMENT</span><i></i>
+            </div>
+
+            <div class="marquee-group" aria-hidden="true">
+              <span>EXECUTIVE BOARD</span><i></i>
+              <span>CABINETS</span><i></i>
+              <span>INDEPENDENT BODIES</span><i></i>
+              <span>COLLEGE UNITS</span><i></i>
+              <span>BATCH UNITS</span><i></i>
+              <span>OPEN ROLES</span><i></i>
+              <span>JOIN USG</span><i></i>
+              <span>RECRUITMENT</span><i></i>
+            </div>
+          </div>
+        </div>
+    </section>
+
+<footer class="site-footer">
+      <div class="site-footer-inner">
+        <p class="site-footer-message">
+          Should you have any concerns or inquiries regarding SGAR 2026,
+          please feel free to reach out to the DLSU University Student Government.
+        </p>
+      <div class="site-footer-bottom">
+
+        <div class="site-footer-contacts index-footer-contacts" aria-label="DLSU USG contact links">
+          <a href="https://www.facebook.com/dlsu.usg" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-facebook" aria-hidden="true"></i>
+            <span>DLSU USG</span>
+          </a>
+
+          <a href="https://www.instagram.com/usg_dlsu/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-instagram" aria-hidden="true"></i>
+            <span>@usg_dlsu</span>
+          </a>
+
+          <a href="mailto:usg-officeoftheexecutivesecretary@dlsu.edu.ph">
+            <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+            <span>Office of the Executive Secretary</span>
+          </a>
+        </div>
+
+      <div class="site-footer-meta">
+          <span>Term 1 SGAR 2026</span>
+          <span>AY 2026–2027</span>
+        </div>
+      </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

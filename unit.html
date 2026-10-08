@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+  <title>SGAR 2026 — Unit Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="unit.css" />
+</head>
+
+<body>
+  <header class="unit-topbar">
+    <a class="unit-back" id="unitBackLink" href="index.html#organizations">
+      <i class="bi bi-arrow-left" aria-hidden="true"></i>
+      <span>BACK</span>
+    </a>
+
+      <div class="unit-nav-logos" aria-label="Event and USG logos">
+        <div class="unit-nav-logo-slot" aria-label="Event logo">
+          <img src="assets/sgar-white-logo.png" alt="Event Logo" class="unit-logo-img">
+        </div>
+
+        <div class="unit-nav-logo-slot" aria-label="USG logo">
+          <img src="assets/usg-white-logo.png" alt="USG Logo" class="unit-logo-img">
+        </div>
+      </div>
+
+    <span class="unit-nav-balance" aria-hidden="true"></span>
+  </header>
+
+  <main class="unit-page">
+    <section class="unit-hero">
+      <div class="unit-clapperboard" aria-label="Featured organization">
+        <div class="clapper-hinge" aria-hidden="true"></div>
+
+        <div class="clapper-top" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+
+        <div class="clapper-body">
+          <div class="unit-logo-slot">
+            <img id="unitLogo" src="" alt="" hidden />
+            <span class="unit-logo-placeholder" aria-hidden="true"></span>
+          </div>
+
+          <div class="unit-hero-copy">
+            <p class="clapper-label">NOW FEATURING</p>
+            <h1 id="unitName">Unit Name</h1>
+            <p class="unit-category" id="unitCategory">Executive Board and Cabinets</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="unit-description" id="unitDescription">
+        Replace this placeholder with the unit description. Introduce the unit,
+        its purpose, and what applicants can expect when they join.
+      </p>
+
+      <div class="unit-actions">
+        <a class="cinema-btn cinema-btn-primary" href="#" id="applicationLink" target="_blank" rel="noopener noreferrer">
+          APPLICATION FORM <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+        </a>
+        <a class="cinema-btn" href="#" id="primerLink" target="_blank" rel="noopener noreferrer">
+          PRIMER <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+        </a>
+        <a class="cinema-btn" href="#" id="socialLink" target="_blank" rel="noopener noreferrer">
+          SOCIAL MEDIA <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="unit-section executive-section">
+      <div class="section-ticket section-ticket-blue">
+        <span>01</span>
+        <h2>EXECUTIVE BOARD</h2>
+
+      </div>
+
+      <div class="executive-spotlights" aria-hidden="true">
+        <span class="exec-light exec-light-left"></span>
+        <span class="exec-light exec-light-right"></span>
+      </div>
+
+      <div class="executive-carousel" id="executiveCarousel" aria-label="Executive Board carousel">
+        <button class="executive-arrow executive-arrow-prev" type="button" aria-label="Previous executive board member"><i class="bi bi-chevron-left" aria-hidden="true"></i></button>
+
+        <div class="executive-carousel-viewport">
+          <div class="executive-carousel-track" id="executiveTrack">
+
+          </div>
+        </div>
+
+        <button class="executive-arrow executive-arrow-next" type="button" aria-label="Next executive board member"><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+
+        <div class="executive-reel-dots" id="executiveReelDots" aria-label="Executive board slide controls"></div>
+      </div>
+    </section>
+
+    <section class="unit-section committees-section">
+      <div class="section-ticket section-ticket-yellow">
+        <span>02</span>
+        <h2>COMMITTEES</h2>
+
+      </div>
+
+      <div class="committee-chair-grid" id="committeeBody">
+        <button
+          class="committee-chair-trigger"
+          type="button"
+          data-committee-name="Committee Name 01"
+          data-description="Replace this with the committee description."
+          data-requirements="None / Replace with requirements."
+          data-positions="0"
+        >
+          <div class="director-chair" aria-hidden="true">
+            <div class="director-chair-back">
+              <h3>Committee Name 01</h3>
+              <span class="chair-open-tag">00 OPEN</span>
+            </div>
+            <div class="director-chair-seat"></div>
+            <span class="chair-arm chair-arm-left"></span>
+            <span class="chair-arm chair-arm-right"></span>
+            <span class="chair-leg chair-leg-left"></span>
+            <span class="chair-leg chair-leg-right"></span>
+          </div>
+        </button>
+
+        <button
+          class="committee-chair-trigger"
+          type="button"
+          data-committee-name="Committee Name 02"
+          data-description="Replace this with the committee description."
+          data-requirements="None / Replace with requirements."
+          data-positions="0"
+        >
+          <div class="director-chair" aria-hidden="true">
+            <div class="director-chair-back">
+              <h3>Committee Name 02</h3>
+              <span class="chair-open-tag">00 OPEN</span>
+            </div>
+            <div class="director-chair-seat"></div>
+            <span class="chair-arm chair-arm-left"></span>
+            <span class="chair-arm chair-arm-right"></span>
+            <span class="chair-leg chair-leg-left"></span>
+            <span class="chair-leg chair-leg-right"></span>
+          </div>
+        </button>
+
+        <button
+          class="committee-chair-trigger"
+          type="button"
+          data-committee-name="Committee Name 03"
+          data-description="Replace this with the committee description."
+          data-requirements="None / Replace with requirements."
+          data-positions="0"
+        >
+          <div class="director-chair" aria-hidden="true">
+            <div class="director-chair-back">
+              <h3>Committee Name 03</h3>
+              <span class="chair-open-tag">00 OPEN</span>
+            </div>
+            <div class="director-chair-seat"></div>
+            <span class="chair-arm chair-arm-left"></span>
+            <span class="chair-arm chair-arm-right"></span>
+            <span class="chair-leg chair-leg-left"></span>
+            <span class="chair-leg chair-leg-right"></span>
+          </div>
+        </button>
+
+        <button
+          class="committee-chair-trigger"
+          type="button"
+          data-committee-name="Committee Name 04"
+          data-description="Replace this with the committee description."
+          data-requirements="None / Replace with requirements."
+          data-positions="0"
+        >
+          <div class="director-chair" aria-hidden="true">
+            <div class="director-chair-back">
+              <h3>Committee Name 04</h3>
+              <span class="chair-open-tag">00 OPEN</span>
+            </div>
+            <div class="director-chair-seat"></div>
+            <span class="chair-arm chair-arm-left"></span>
+            <span class="chair-arm chair-arm-right"></span>
+            <span class="chair-leg chair-leg-left"></span>
+            <span class="chair-leg chair-leg-right"></span>
+          </div>
+        </button>
+
+        <button
+          class="committee-chair-trigger"
+          type="button"
+          data-committee-name="Committee Name 05"
+          data-description="Replace this with the committee description."
+          data-requirements="None / Replace with requirements."
+          data-positions="0"
+        >
+          <div class="director-chair" aria-hidden="true">
+            <div class="director-chair-back">
+              <h3>Committee Name 05</h3>
+              <span class="chair-open-tag">00 OPEN</span>
+            </div>
+            <div class="director-chair-seat"></div>
+            <span class="chair-arm chair-arm-left"></span>
+            <span class="chair-arm chair-arm-right"></span>
+            <span class="chair-leg chair-leg-left"></span>
+            <span class="chair-leg chair-leg-right"></span>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <section class="unit-section org-structure-section">
+      <div class="section-ticket section-ticket-neutral">
+        <span>03</span>
+        <h2>ORG STRUCTURE</h2>
+
+      </div>
+
+      <div class="org-structure-frame">
+        <button
+          class="org-structure-image-button"
+          id="orgStructureOpen"
+          type="button"
+          aria-label="Open organization structure image"
+        >
+          <div class="org-structure-photo-placeholder" id="orgStructurePhoto">
+            <img id="orgStructurePreview" src="" alt="Organization Structure" />
+            <small><i class="bi bi-zoom-in" aria-hidden="true"></i> CLICK TO ZOOM</small>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <div class="org-structure-modal" id="orgStructureModal" aria-hidden="true">
+      <div class="org-structure-modal-backdrop" data-org-modal-close></div>
+      <section class="org-structure-modal-panel" role="dialog" aria-modal="true" aria-label="Organization structure image">
+        <button class="org-structure-modal-close" type="button" aria-label="Close organization structure image" data-org-modal-close><i class="bi bi-x-lg" aria-hidden="true"></i></button>
+        <div class="org-structure-modal-image" id="orgStructureModalImage">
+          <img id="orgStructureModalImg" src="" alt="Organization Structure Full" />
+        </div>
+      </section>
+    </div>
+
+    <div class="committee-modal" id="committeeModal" aria-hidden="true">
+      <div class="committee-modal-backdrop" data-modal-close></div>
+
+      <section
+        class="committee-modal-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="committeeModalTitle"
+      >
+        <button class="committee-modal-close" type="button" aria-label="Close committee details" data-modal-close>
+          <i class="bi bi-x-lg" aria-hidden="true"></i>
+        </button>
+
+        <div class="committee-modal-topline">
+          <p class="committee-modal-kicker">COMMITTEE DETAILS</p>
+          <span class="committee-modal-open-tag" id="committeeModalOpenTag">00 OPEN</span>
+        </div>
+        <h2 id="committeeModalTitle">Committee Name</h2>
+
+        <div class="committee-modal-section">
+          <span>DESCRIPTION</span>
+          <p id="committeeModalDescription"></p>
+        </div>
+
+        <div class="committee-modal-section">
+          <span>ADDITIONAL REQUIREMENTS</span>
+          <p id="committeeModalRequirements"></p>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <section class="snap-section timeline-section" id="timeline">
+      <div class="timeline-popcorn-layer" id="timelinePopcornLayer" aria-hidden="true"></div>
+
+      <div class="section-shell timeline-shell timeline-cinema-shell">
+        <div class="timeline-marquee">
+          <span class="marquee-bulbs marquee-bulbs-top" aria-hidden="true"></span>
+
+          <div class="timeline-marquee-copy">
+            <p class="timeline-marquee-kicker" id="unitTimelineKicker">T1 SGAR 2026</p>
+            <h2 id="unitTimelineTitle">TIMELINE SCHEDULE</h2>
+          </div>
+
+          <span class="marquee-bulbs marquee-bulbs-bottom" aria-hidden="true"></span>
+        </div>
+
+        <div class="timeline-screen" id="timelineScreen">
+          <div class="timeline-screen-beam" aria-hidden="true"></div>
+
+          <div class="countdown-block">
+            <p class="countdown-eyebrow" id="countdownEyebrow">APPLICATIONS PREMIERE IN</p>
+
+            <div class="countdown-timer" id="sgarCountdown" aria-live="polite">
+              <div class="countdown-unit">
+                <strong id="countdownDays">00</strong>
+                <span>DAYS</span>
+              </div>
+              <span class="countdown-colon">:</span>
+              <div class="countdown-unit">
+                <strong id="countdownHours">00</strong>
+                <span>HOURS</span>
+              </div>
+              <span class="countdown-colon">:</span>
+              <div class="countdown-unit">
+                <strong id="countdownMinutes">00</strong>
+                <span>MIN</span>
+              </div>
+              <span class="countdown-colon">:</span>
+              <div class="countdown-unit">
+                <strong id="countdownSeconds">00</strong>
+                <span>SEC</span>
+              </div>
+            </div>
+
+            <p class="countdown-date" id="countdownDate">OCTOBER 5, 2026</p>
+          </div>
+
+          <div class="screen-popcorn-origin" aria-hidden="true">
+            <span>POPCORN PREMIERE</span>
+          </div>
+        </div>
+
+        <div class="timeline-reel-stage">
+          <button
+            class="timeline-reel-control"
+            id="timelineReelControl"
+            type="button"
+            aria-label="Roll the film reel to move the timeline"
+          >
+            <span class="timeline-reel-disc" aria-hidden="true">
+              <span class="timeline-reel-core"></span>
+              <span class="timeline-reel-hole timeline-reel-hole-1"></span>
+              <span class="timeline-reel-hole timeline-reel-hole-2"></span>
+              <span class="timeline-reel-hole timeline-reel-hole-3"></span>
+              <span class="timeline-reel-hole timeline-reel-hole-4"></span>
+              <span class="timeline-reel-hole timeline-reel-hole-5"></span>
+            </span>
+            <span class="timeline-reel-label">ROLL FILM</span>
+          </button>
+
+          <div class="timeline-filmstrip-wrap" id="timelineInteractiveStrip">
+            <div class="timeline-filmstrip-holes timeline-filmstrip-holes-top" aria-hidden="true"></div>
+
+            <div class="timeline timeline-cinema-track unit-timeline-three-phase" id="unitTimelineTrack">
+            </div>
+
+            <div class="timeline-filmstrip-holes timeline-filmstrip-holes-bottom" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <p class="site-footer-message">
+        Should you have any concerns or inquiries regarding SGAR 2026,
+        please feel free to reach out to the DLSU University Student Government.
+      </p>
+      <div class="site-footer-bottom">
+
+      <div class="site-footer-contacts index-footer-contacts" aria-label="DLSU USG contact links">
+          <a href="https://www.facebook.com/dlsu.usg" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-facebook" aria-hidden="true"></i>
+            <span>DLSU USG</span>
+          </a>
+
+          <a href="https://www.instagram.com/usg_dlsu/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-instagram" aria-hidden="true"></i>
+            <span>@usg_dlsu</span>
+          </a>
+
+          <a href="mailto:usg-officeoftheexecutivesecretary@dlsu.edu.ph">
+            <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+            <span>Office of the Executive Secretary</span>
+          </a>
+        </div>
+
+      <div class="site-footer-meta">
+          <span>Term 1 SGAR 2026</span>
+          <span>AY 2026–2027</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="unit.js"></script>
+</body>
+</html>
