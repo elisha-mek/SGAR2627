@@ -1109,6 +1109,7 @@ committees: [
     }
   },
   "JUD": {
+    name: "USG Judiciary",
     category: "Independent Bodies",
     description: "The USG Judiciary is the land of justice that carries the rights of the students by upholding the law so it will never be forgotten. The Judiciary is composed of different committees that each have a different purpose and write their own story. From providing student services to establishing alliances, the members of the Judiciary put their integrity and duty first in order to protect the justice of the student body.",
     logo: "assets/JUDICIARY_Black Logo.png",
