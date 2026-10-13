@@ -1108,6 +1108,121 @@ committees: [
       ]
     }
   },
+  "JUD": {
+    category: "Independent Bodies",
+    description: "The USG Judiciary is the land of justice that carries the rights of the students by upholding the law so it will never be forgotten. The Judiciary is composed of different committees that each have a different purpose and write their own story. From providing student services to establishing alliances, the members of the Judiciary put their integrity and duty first in order to protect the justice of the student body.",
+    logo: "assets/JUDICIARY_Black Logo.png",
+    applicationLink: "https://animo.li/SGAR2627T1_JD_ApplicationForm",
+    primerLink: "https://drive.google.com/file/d/101M5amdg7bhlXld4btiNHJDGa9SHp-dQ/view?usp=sharing",
+    socialLink: "https://www.facebook.com/usgjudiciary",
+    executiveBoard: [
+      {
+        name: "Maika Waden S. Marcelino",
+        role: "Acting Chief Magistrate",
+        email: "maika_marcelino@dlsu.edu.ph",
+        telegram: "@calirollmai",
+        photo: "assets/JUDICIARY_Acting Chief Magistrate.png"
+      },
+      {
+        name: "Ricardo Jose M. Lagman",
+        role: "Director of Human Resources",
+        email: "ricardo_lagman@dlsu.edu.ph",
+        telegram: "@ricardiology",
+        photo: "assets/JUDICIARY_Director of Human Resources.png"
+      },
+      {
+        name: "Avery Shyanne O. Cruz",
+        role: "Deputy Director of Human Resources",
+        email: "avery_cruz@dlsu.edu.ph",
+        telegram: "@averyshyannne",
+        photo: "assets/JUDICIARY_Deputy Director of Human Resources.png"
+      }
+    ],
+    committees: [
+      {
+        name: "Magistrate Trainee",
+        positions: "3 trainees",
+        description: "Magistrate Trainees are chosen to practice maintaining the law through a dedicated and disciplined training program. Those who stand in the arena are those who are willing to face any kind of trial. By the end of the program, trainees are prepared to carry the weight of justice for the student body."
+      },
+      {
+        name: "Counsel Officer Trainee",
+        positions: "5 trainees",
+        description: "Counsel Officer Trainees are being trained to have a heart of selflessness to protect the students. Trainees use their courage and unwavering devotion to become the defenders and voices of the student body."
+      },
+      {
+        name: "Office of the Magistrate",
+        positions: "3 staffers",
+        description: "The Office of the Magistrate holds the quiet and reliable heroes of the organization by ensuring all records run smoothly. The staffers are dedicated to managing the records with confidentiality and precision to make sure the Judiciary keeps on functioning."
+      },
+      {
+        name: "Student Advisers",
+        positions: "7 apprentices",
+        description: "The Student Advisers are the fearless heroes of the Judiciary by protecting the truth and offering services to the student body. They bring light to the students by handling grievances and defending student rights during uncertain times."
+      },
+      {
+        name: "Operations",
+        positions: "5 apprentices",
+        description: "The Operations Committee is another candle of the Judiciary by turning all event ideas into reality. By checking, organizing and submitting needed documents in careful alignment, it allows projects to slowly unfold and bloom."
+      },
+      {
+        name: "Judicial Communications",
+        positions: "6 Apprentices",
+        description: "Judicial Communications are the storytellers of the Judiciary’s life. Through their creative skills and use of various tools, they create vibrant visuals and transparency for the student body. The committee is composed of the following sub-groups:\n• 2 Press & Information Apprentices\n• 2 Integrated Marketing Apprentices\n• 2 Digital & Technological Support Apprentices",
+        requirements: "Portfolio required."
+      },
+      {
+        name: "Human Resources",
+        positions: "5 apprentices",
+        description: "Human Resources is the bright candle of the Judiciary, bringing life and balance to the organization. By preparing meaningful events, it becomes a colorful memory for members of the Judiciary."
+      },
+      {
+        name: "Judicial Administration",
+        positions: "4 apprentices",
+        description: "Judicial Administration are the guardians of the organization as they take care of court records and documentations. They help maintain integrity and the memories of the organization so the Judiciary can remain standing in the arena."
+      },
+      {
+        name: "External Relations",
+        positions: "4 apprentices",
+        description: "External Relations is the bridge between the organization and partners within or beyond the university. They establish bonds that help create opportunities for the Judiciary and make greater memories with more alliances."
+      },
+      {
+        name: "Fiscal",
+        positions: "4 apprentices",
+        description: "The Fiscal Committee helps light up the Judiciary’s candle by overseeing the financial operations of the Judiciary to ensure stability and compliance. Through accountability, transparent records, and proper budget management, the committee ensures that all projects are financially supported."
+      }
+    ],
+    orgStructureImage: "assets/JUDICIARY_OrgChart.png",
+    timeline: {
+      title: "TIMELINE SCHEDULE",
+      phases: [
+        {
+          title: "Applications",
+          date: "OCT 5–19",
+          tag: "OPENING ACT",
+          color: "blue",
+          start: "2026-10-05T00:00:00+08:00",
+          end: "2026-10-19T23:59:59+08:00",
+          openDateLabel: "OCTOBER 5, 2026",
+          closeDateLabel: "OCTOBER 19, 2026"
+        },
+        {
+          title: "Interviews",
+          date: "OCT 9–21",
+          tag: "INTERVIEWS",
+          color: "yellow",
+          start: "2026-10-09T00:00:00+08:00",
+          end: "2026-10-21T23:59:59+08:00"
+        },
+        {
+          title: "Results",
+          date: "OCT 28",
+          tag: "PREMIERE",
+          color: "neutral"
+        }
+      ]
+    }
+
+  },
   "CSG": {
     name: "Computer Studies Government",
     category: "College Units",
@@ -1666,15 +1781,15 @@ name: "Arts College Government",
     applicationLink: "https://bit.ly/SGAR2627T1_ACG_ApplicationForms",
     primerLink: "https://drive.google.com/file/d/1eVxupt2e6sKy0HUADR3K695nJyMwZHJA/view?usp=sharing",
     socialLink: "https://www.facebook.com/dlsuacg",
-    /*
+    
     executiveBoard: [
-     // {
-        //name: "Louise Castillo",
-        //role: "OIC College President",
-        //email: "louise_angela_castillo@dlsu.edu.ph",
-        //telegram: "@louisecastilloo",
-        //photo: "assets/ACG CP.jpg"
-      //},
+     {
+        name: "Louise Castillo",
+        role: "OIC College President",
+        email: "louise_angela_castillo@dlsu.edu.ph",
+        telegram: "@louisecastilloo",
+        photo: "assets/ACG CP.jpg"
+      },
       {
         name: "Yesha Gutierrez",
         role: "Chief of Staff",
@@ -1704,7 +1819,6 @@ name: "Arts College Government",
         photo: "assets/ACG CFAO.jpeg"
       }
     ],
-    */
     committees: [
       {
         name: "Student Services",
